@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "homepage": "https://heoglass.github.io/jaehoonyuri/",
     "deploy": "gh-pages -d build",
-    "predeploy": "run build"
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
