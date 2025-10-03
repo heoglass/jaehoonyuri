@@ -1,48 +1,23 @@
 import styled from "@emotion/styled";
-
-<<<<<<< HEAD
-const Container = styled.div({
-  height: "100vh",
-
-  overflow: "hidden",
-});
-
-const InvitationContainer = styled.div({
-  width: "375px",
-  height: "100%",
-
-  margin: "0 auto",
-  overflowY: "scroll",
-
-  "::-webkit-scrollbar": {
-    display: "none",
-  },
-=======
 // import IMG_MAIN from "../assets/images/main.jpg";
 import IMG_MAIN from "../assets/images/main2.png";
 import IMG_MAIN_TEXT from "../assets/images/main-text.png";
 
-const Container = styled.div({});
+const Container = styled.div({
+  height: "100vh",
+  overflow: "hidden",
+});
 
 const MainImageArea = styled.div({
   width: "375px",
   height: "100vh",
   position: "relative",
->>>>>>> 565b613 (영역 화면 추가)
 
   "@media (max-width: 768px)": {
     width: "100%",
   },
 });
 
-<<<<<<< HEAD
-export default function Main() {
-  return (
-    <Container>
-      <InvitationContainer>
-        <p>모바일 청첩장</p>
-      </InvitationContainer>
-=======
 const MainImage = styled.img({
   width: "100%",
   height: "100%",
@@ -90,7 +65,6 @@ export default function Main() {
           </InformationText>
         </InformationArea>
       </MainImageArea>
->>>>>>> 565b613 (영역 화면 추가)
     </Container>
   );
 }

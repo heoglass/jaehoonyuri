@@ -1,7 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-=======
 import styled from "@emotion/styled";
 import Invitation from "./screens/Invitation";
 import Main from "./screens/Main";
@@ -44,6 +41,5 @@ export default function App() {
         <Account />
       </InvitationContainer>
     </Container>
->>>>>>> 565b613 (영역 화면 추가)
   );
 }
