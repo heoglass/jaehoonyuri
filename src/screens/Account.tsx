@@ -7,13 +7,19 @@ const Container = styled.div({
 const Title = styled.p({
   fontSize: "20px",
   textAlign: "center",
+  marginBottom: "12px",
+});
+const SubTitle = styled.p({
+  fontSize: "20px",
+  textAlign: "center",
+  marginBottom: "20px",
 });
 
 export default function Account() {
   return (
     <Container>
       <Title>ACCOUNT</Title>
-      <Title>마음 전하실 곳</Title>
+      <SubTitle>마음 전하실 곳</SubTitle>
     </Container>
   );
 }
