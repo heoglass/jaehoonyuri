@@ -4,10 +4,16 @@ const Container = styled.div({
   padding: "30px 0",
 });
 
+const Title = styled.p({
+  fontSize: "20px",
+  textAlign: "center",
+});
+
 export default function Location() {
   return (
     <Container>
-      <p>오시는 길</p>
+      <Title>LOCATION</Title>
+      <Title>오시는 길</Title>
     </Container>
   );
 }
